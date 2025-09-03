@@ -1,0 +1,7 @@
+a = list(map(float, input("Enter numbers separated by spaces: ").split()))
+print("Sum:", sum(a))
+print("Average:", sum(a)/len(a) if a else 0)
+print("Maximum:", max(a) if a else None)
+print("Minimum:", min(a) if a else None)
+print("Sorted List:", sorted(a))
+print("Round off:", [round(num) for num in a])
